@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taller en vivo: Canva para Emprendedoras — $10</title>
+<meta name="description" content="Deja de publicar diseños que espantan clientes. Taller en vivo de Canva para emprendedoras, sábado 24 de octubre. Solo 25 cupos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Montserrat',sans-serif}
+:root{--morado:#5b21b6;--morado-dd:#2a0a4a;--beige:#f5efe3;--amarillo:#fbbf24;--amarillo-d:#f59e0b}
+body{background:var(--morado-dd);color:#fff;line-height:1.6;padding-bottom:86px}
+.wrap{max-width:680px;margin:0 auto;padding:0 18px}
+section{padding:36px 0}
+.center{text-align:center}
+h1{font-size:31px;font-weight:900;line-height:1.22}
+h2{font-size:23px;font-weight:800;margin-bottom:16px;line-height:1.3}
+h2 .hl{color:var(--amarillo)}
+p{font-size:15px;margin-bottom:12px;color:#ede9fe}
+.badge{display:inline-block;background:var(--amarillo);color:var(--morado-dd);font-weight:800;font-size:12px;letter-spacing:1px;border-radius:999px;padding:7px 18px;margin-bottom:16px;text-transform:uppercase}
+.btn{display:inline-block;background:#25d366;color:#fff;font-weight:800;font-size:17px;text-decoration:none;border-radius:999px;padding:16px 34px;margin:14px 0;box-shadow:0 6px 24px rgba(37,211,102,.4);transition:transform .15s}
+.btn:active{transform:scale(.97)}
+.btn small{display:block;font-size:12px;font-weight:600;opacity:.9}
+.hero{padding:34px 0 30px;background:radial-gradient(ellipse at 50% 0%,#6d28d9 0%,var(--morado-dd) 70%)}
+.hero img.promo{width:100%;border-radius:18px;margin:20px 0;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+.hero .golpe{font-size:16px;font-weight:700;color:var(--amarillo);margin-top:12px}
+.fecha{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:14px;margin:16px 0;font-size:14px;font-weight:600}
+.fecha b{color:var(--amarillo)}
+.countdown{display:flex;gap:10px;justify-content:center;margin:18px 0 6px}
+.cd{background:rgba(255,255,255,.1);border-radius:12px;padding:10px 0;width:74px}
+.cd .n{font-size:26px;font-weight:900;color:var(--amarillo)}
+.cd .l{font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:.8}
+.cupos{font-size:14px;font-weight:700;color:var(--amarillo);margin-top:10px}
+.card{background:var(--beige);color:#3a2b1a;border-radius:20px;padding:26px 22px;margin:0 0 18px}
+.card h2{color:var(--morado)}
+.card p{color:#5b4a36}
+.card ul{list-style:none;padding:0}
+.card li{font-size:14.5px;margin-bottom:12px;padding-left:30px;position:relative;line-height:1.55}
+.card li::before{content:"✅";position:absolute;left:0}
+.card li.no::before{content:"😩"}
+.frase{font-size:17px;font-weight:800;color:var(--morado);margin-top:16px;line-height:1.5}
+.profe{background:#fff;border-radius:20px;padding:22px;margin-top:6px;text-align:center}
+.foto-profe-sq{width:100%;max-width:340px;border-radius:18px;display:block;margin:0 auto 16px;box-shadow:0 8px 28px rgba(0,0,0,.25)}
+.profe h3{color:var(--morado);font-size:17px;font-weight:800;margin-bottom:8px}
+.profe p{font-size:14px;color:#5b4a36;margin:0}
+.testi{background:#fff;border-radius:16px;padding:18px;margin-bottom:12px}
+.testi p{color:#5b4a36;font-size:14px;font-style:italic;margin-bottom:8px}
+.testi .quien{font-weight:800;color:var(--morado);font-size:13px}
+.demanda{background:linear-gradient(135deg,#fbbf24,#f59e0b);border-radius:16px;padding:18px;color:#2a0a4a;font-size:14px;line-height:1.6}
+.pack{list-style:none;background:#fff;border-radius:16px;padding:18px;margin-bottom:14px}
+.pack li{font-size:13.5px;color:#5b4a36;margin-bottom:9px;padding-left:6px;line-height:1.5}
+.modulo{background:#fff;border-radius:14px;padding:16px;margin-bottom:12px;border-left:6px solid var(--amarillo-d)}
+.modulo h3{color:var(--morado);font-size:15px;font-weight:800;margin-bottom:6px}
+.modulo p{color:#5b4a36;font-size:13.5px;margin:0}
+.bono{background:linear-gradient(135deg,#fff7e0,#fde68a);border:2px dashed var(--amarillo-d);border-radius:14px;padding:16px;margin-bottom:12px}
+.bono h3{font-size:15px;font-weight:800;color:#92400e;margin-bottom:6px}
+.bono p{font-size:13.5px;color:#5b4a36;margin:0}
+.costo{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.4);border-radius:16px;padding:20px}
+.costo h2{color:#fca5a5}
+.costo li{list-style:none;font-size:14px;margin-bottom:10px;padding-left:28px;position:relative;color:#ede9fe}
+.costo li::before{content:"⚠️";position:absolute;left:0}
+.precio-card{background:#fff;border-radius:22px;padding:30px 24px;text-align:center;color:#3a2b1a;box-shadow:0 14px 44px rgba(0,0,0,.35)}
+.precio-card .tacha{font-size:18px;color:#a89c8a;text-decoration:line-through}
+.precio-card .precio{font-size:56px;font-weight:900;color:var(--morado);line-height:1;margin:6px 0}
+.precio-card .detalle{font-size:13px;color:#5b4a36;margin-bottom:8px}
+.precio-card .ancla{font-size:13px;color:#5b4a36;background:#f5efe3;border-radius:10px;padding:10px;margin-bottom:6px}
+.pro-line{background:#ede9fe;border-radius:12px;padding:12px;font-size:13px;color:#4c1d95;margin:14px 0}
+.pasos{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.paso{display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.07);border-radius:14px;padding:14px}
+.paso .num{background:var(--amarillo);color:var(--morado-dd);font-weight:900;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.paso p{margin:0;font-size:14px}
+.paso b{color:var(--amarillo)}
+.faq{margin-bottom:12px;background:rgba(255,255,255,.06);border-radius:12px;padding:14px 16px}
+.faq h3{font-size:14.5px;font-weight:800;color:var(--amarillo);margin-bottom:6px}
+.faq p{font-size:13.5px;margin:0}
+.sticky{position:fixed;bottom:0;left:0;right:0;background:rgba(42,10,74,.97);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid rgba(255,255,255,.12);z-index:50}
+.sticky .t{font-size:13px;font-weight:700}
+.sticky .t b{color:var(--amarillo)}
+.sticky .btn{margin:0;padding:12px 24px;font-size:15px;white-space:nowrap}
+footer{padding:26px 0 10px;text-align:center;font-size:12.5px;color:#b8a8d9}
+footer b{color:#fff}
+@media(min-width:640px){h1{font-size:40px}}
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+<div class="wrap center">
+<div class="badge">🔴 Taller en vivo · este sábado</div>
+<h1>Deja de publicar diseños que <span style="color:var(--amarillo)">espantan clientes</span></h1>
+<p class="golpe">Taller en vivo: Canva para Emprendedoras</p>
+<p style="font-size:15px;margin-top:8px">En una tarde aprendes a diseñar los posts, historias y flyers de tu negocio — aunque sea tu primera vez abriendo Canva.</p>
+<img class="promo" src="promo-canva.webp" alt="Aprende a utilizar Canva — Taller en vivo">
+<div class="fecha">📅 <b>Sábado 24 de octubre</b> · 3:00 a 6:00 pm (hora Venezuela)<br>💻 En vivo por Google Meet · desde tu celular o tu PC</div>
+<div class="countdown" id="countdown">
+<div class="cd"><div class="n" id="cd-d">0</div><div class="l">días</div></div>
+<div class="cd"><div class="n" id="cd-h">0</div><div class="l">horas</div></div>
+<div class="cd"><div class="n" id="cd-m">0</div><div class="l">min</div></div>
+<div class="cd"><div class="n" id="cd-s">0</div><div class="l">seg</div></div>
+</div>
+<!-- Franyeli: actualiza los cupos restantes editando el número aquí -->
+<p class="cupos">⚡ Solo <b>25 cupos</b> · corre por el tuyo</p>
+<a class="btn" href="https://wa.me/584228822885?text=QUIERO%20CANVA">Aparta mi cupo por WhatsApp<small>Te respondo hoy mismo 💬</small></a>
+</div>
+</section>
+
+<!-- ============ DOLOR ============ -->
+<section>
+<div class="wrap">
+<div class="card">
+<h2>¿Te suena familiar? 👇</h2>
+<ul>
+<li class="no">Abres Canva, no sabes por dónde empezar… y lo cierras otra vez.</li>
+<li class="no">Tus publicaciones se ven improvisadas al lado de las de tu competencia.</li>
+<li class="no">Cada diseño te quita horas que deberías usar vendiendo.</li>
+<li class="no">Sabes que tu producto es bueno, pero <b>en redes se ve del montón</b>.</li>
+</ul>
+<p class="frase">No es que tu producto sea malo. Es que se ve mal.<br>Y en Instagram, lo que se ve mal, no se compra.</p>
+</div>
+</div>
+</section>
+
+<!-- ============ QUIÉN ENSEÑA ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<h2 class="center">¿Quién te va a <span class="hl">enseñar</span>?</h2>
+<div class="profe">
+<img class="foto-profe-sq" src="foto-franyeli.jpg" alt="Franyeli Gutiérrez">
+<h3>Franyeli Gutiérrez · @Soyfrancreativa</h3>
+<p>Diseñadora y profesora de marketing digital. Ya formé a decenas de emprendedoras en marketing y diseño, y este sábado te enseño en vivo, paso a paso y sin tecnicismos.</p>
+</div>
+</div>
+</section>
+
+<!-- ============ TESTIMONIOS ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<h2 class="center">Lo que dicen <span class="hl">mis alumnas</span> 💜</h2>
+<div class="testi"><p>"Excelente capacitación. Esperando se pueda extender el conocimiento... Aprendí mucho. Y espero que esa energía que sentía durante el tiempo de la capacitación me lleven a lograr mis objetivos."</p><div class="quien">@kattheecas17</div></div>
+<div class="testi"><p>"Excelente capacitación 👏👍"</p><div class="quien">@mbelkis_55</div></div>
+<div class="testi"><p>👏👏❤️</p><div class="quien">@monasterioscarmen</div></div>
+<div class="demanda">🔥 <b>@ariangeles25</b> ya preguntó: <i>"¿Para qué fecha próximamente harán este curso?"</i><br>La próxima fecha es <b>este sábado 24</b>. No te quedes por fuera. ⚡</div>
+</div>
+</section>
+
+<!-- ============ TEMARIO ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<h2 class="center">En 3 horas <span class="hl">en vivo</span> vas a lograr esto</h2>
+<div class="modulo"><h3>🎨 Módulo 1 · Canva desde cero, sin miedo</h3><p>Tu cuenta lista, las plantillas correctas y las letras y fotos que sí se ven profesionales. Cero tecnicismos.</p></div>
+<div class="modulo"><h3>📱 Módulo 2 · Diseñamos juntas, en vivo</h3><p>Creamos tu post, tu historia y tu flyer de WhatsApp paso a paso. Sales del taller con diseños listos para publicar hoy mismo.</p></div>
+<div class="modulo"><h3>✨ Módulo 3 · Nivel PRO (demo en vivo)</h3><p>Te muestro quitar fondo con un clic, kit de marca y animación. Si lo quieres para tu negocio, lo activamos ahí mismo.</p></div>
+<div class="modulo"><h3>🗓️ Módulo 4 · Tu plan de 7 diseños</h3><p>Te vas con tu semana armada: qué diseñar cada día para no quedarte nunca más en blanco.</p></div>
+<div class="center"><a class="btn" href="https://wa.me/584228822885?text=QUIERO%20CANVA">Aparta mi cupo · $10<small>Solo 25 cupos ⚡</small></a></div>
+</div>
+</section>
+
+<!-- ============ BONOS ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<h2 class="center">Y te llevas esto <span class="hl">de regalo</span> 🎁</h2>
+<div class="bono"><h3>🎥 Grabación por 7 días</h3><p>¿No puedes estar las 3 horas en vivo? Repasas la grabación a tu ritmo durante una semana.</p></div>
+<div class="bono"><h3>💬 Grupo privado de WhatsApp</h3><p>Comunidad de alumnas del taller: preguntas, compartes tus diseños y no caminas sola después del sábado.</p></div>
+</div>
+</section>
+
+<!-- ============ PACK PRO (order bump $10) ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<div class="card" style="border:3px solid var(--amarillo-d)">
+<h2>⚡ Súmale el Pack Emprendedora PRO</h2>
+<p>No son "plantillitas": son <b>10 plantillas y guías sustanciosas</b> donde solo reemplazas tu información — las herramientas de organización y venta que usan los negocios que sí crecen:</p>
+<ul class="pack">
+<li>📋 Plan de marketing en una página (rellenable)</li>
+<li>🗓️ Calendario semanal de publicaciones</li>
+<li>📆 Calendario mensual de contenido</li>
+<li>🎨 Guía de identidad visual: tus colores y letras</li>
+<li>✍️ Bio de Instagram que vende (plantilla)</li>
+<li>📣 5 historias listas para tus promociones</li>
+<li>💬 Flyer para WhatsApp (plantilla editable)</li>
+<li>🚀 Checklist de lanzamiento de producto o promo</li>
+<li>🎯 Calendario de ofertas del mes</li>
+<li>📸 Guía: fotos con celular que se ven profesionales</li>
+</ul>
+<p style="font-weight:800;color:var(--morado)">Valoradas en más de $25 — hoy te las llevas en $10. ¡Cada una te queda en $1!</p>
+<p style="font-size:13.5px">Una locura total que no puedes dejar pasar. Pídelo al inscribirte por WhatsApp con: <b>"QUIERO CANVA + PACK"</b>.</p>
+<div class="center"><a class="btn" href="https://wa.me/584228822885?text=QUIERO%20CANVA%20Y%20EL%20PACK">Quiero el taller + el pack · $20<small>Solo 25 cupos ⚡</small></a></div>
+</div>
+</div>
+</section>
+
+<!-- ============ COSTO DE NO ACTUAR ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<div class="costo">
+<h2>¿Y si no haces nada este sábado?</h2>
+<ul>
+<li>Seguirás publicando "como salga" mientras tu competencia se ve profesional.</li>
+<li>Cada semana sin una imagen que venda es una semana perdiendo clientes que sí estaban listos para comprarte.</li>
+<li>El Canva seguirá ahí, cerrado, otra semana más.</li>
+</ul>
+<p style="margin:12px 0 0;font-weight:700;color:#fff">$10 y una tarde. Eso es lo que separa tu negocio de verse como los grandes.</p>
+</div>
+</div>
+</section>
+
+<!-- ============ PRECIO ============ -->
+<section style="padding-top:6px">
+<div class="wrap">
+<div class="precio-card">
+<div class="badge">Precio de lanzamiento</div>
+<div class="tacha">$15</div>
+<div class="precio">$10</div>
+<div class="ancla">Menos de lo que gastas en <b>una salida a comer</b>… por una habilidad que usarás <b>todos los días</b> en tu negocio.</div>
+<div class="detalle">Pago único · Taller en vivo de 3 horas + grabación por 7 días + grupo privado</div>
+<div class="pro-line">💎 <b>Opcional:</b> Canva PRO 1 año por <b>$10</b> — se ofrece dentro del taller, nunca es requisito.</div>
+<div class="pro-line" style="background:#fff7e0">🔥 <b>Súmale el Pack Emprendedora PRO:</b> 10 plantillas/guías premium por <b>$10</b> extra (valoradas en +$25).</div>
+<p class="cupos" style="color:#b45309">⚡ Solo 25 cupos · cuando se llenan, se cierra</p>
+<a class="btn" href="https://wa.me/584228822885?text=QUIERO%20CANVA">Aparta mi cupo por WhatsApp<small>Cancela por pago móvil · Binance · Zinli</small></a>
+</div>
+</div>
+</section>
+
+<!-- ============ PASOS ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<h2 class="center">Apartar tu cupo toma <span class="hl">2 minutos</span></h2>
+<div class="pasos">
+<div class="paso"><div class="num">1</div><p><b>Escríbeme por WhatsApp</b> con la palabra <b>"QUIERO CANVA"</b>.</p></div>
+<div class="paso"><div class="num">2</div><p><b>Cancela tus $10</b> (o $20 con el Pack PRO) por pago móvil, Binance o Zinli. Sin cancelar no se aparta el cupo.</p></div>
+<div class="paso"><div class="num">3</div><p><b>Recibe el link del Meet</b> y tus plantillas de regalo. Nos vemos el sábado. 🎉</p></div>
+</div>
+<div class="center"><a class="btn" href="https://wa.me/584228822885?text=QUIERO%20CANVA">Empezar ahora<small>Te respondo hoy mismo 💬</small></a></div>
+</div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section style="padding-top:0">
+<div class="wrap">
+<h2 class="center">Preguntas <span class="hl">frecuentes</span></h2>
+<div class="faq"><h3>¿Necesito Canva PRO para el taller?</h3><p>No. Todo se enseña con Canva gratis. El PRO solo se muestra como demo y es 100% opcional.</p></div>
+<div class="faq"><h3>¿Y si no puedo asistir en vivo?</h3><p>La grabación queda disponible por 7 días, más el grupo privado. Pero en vivo diseñas conmigo y preguntas en el momento.</p></div>
+<div class="faq"><h3>¿Qué necesito tener?</h3><p>Un celular o una PC con internet y una cuenta gratis de Canva (te explico cómo crearla en 2 minutos).</p></div>
+<div class="faq"><h3>¿Cómo cancelo?</h3><p>Por pago móvil, Binance o Zinli. Al escribirme por WhatsApp te paso los datos.</p></div>
+<div class="faq"><h3>¿Qué es el Pack Emprendedora PRO?</h3><p>10 plantillas y guías premium (plan de marketing, calendarios de contenido, identidad visual y más) valoradas en más de $25, por $10 extra al inscribirte. Solo reemplazas tu información.</p></div>
+<div class="faq"><h3>Nunca he diseñado nada, ¿esto es para mí?</h3><p>Es justamente para ti: empezamos desde cero, sin tecnicismos y diseñando en vivo.</p></div>
+</div>
+</section>
+
+<!-- ============ CIERRE ============ -->
+<section style="padding-top:0">
+<div class="wrap center">
+<h2>Tu negocio merece<br>verse <span class="hl">profesional</span> 💜</h2>
+<p>Este sábado, en una tarde, aprendes la habilidad que vas a usar todos los días en tu emprendimiento.</p>
+<p class="cupos">⚡ Solo 25 cupos · corre por el tuyo</p>
+<a class="btn" href="https://wa.me/584228822885?text=QUIERO%20CANVA">Sí, aparto mi cupo · $10<small>Nos vemos el sábado 24 🎨</small></a>
+</div>
+</section>
+
+<footer>
+<b>Franyeli Gutiérrez</b> · @Soyfrancreativa<br>Diseñadora y profesora de marketing digital 💜
+</footer>
+
+<div class="sticky">
+<div class="t">🎨 Taller Canva · <b>$10</b><br><span style="font-weight:400;font-size:12px">Solo 25 cupos</span></div>
+<a class="btn" href="https://wa.me/584228822885?text=QUIERO%20CANVA">Mi cupo</a>
+</div>
+
+<script>
+// Cuenta regresiva: sábado 24 oct 2026, 3:00 pm hora Venezuela (UTC-4)
+var target = new Date('2026-10-24T15:00:00-04:00').getTime();
+function tick(){
+  var now = new Date().getTime();
+  var d = target - now;
+  if(d < 0){ document.getElementById('countdown').innerHTML = '<p style="font-weight:800;color:#fbbf24">¡Ya casi empezamos! 🎉</p>'; return; }
+  document.getElementById('cd-d').textContent = Math.floor(d/864e5);
+  document.getElementById('cd-h').textContent = Math.floor(d%864e5/36e5);
+  document.getElementById('cd-m').textContent = Math.floor(d%36e5/6e4);
+  document.getElementById('cd-s').textContent = Math.floor(d%6e4/1e3);
+}
+tick(); setInterval(tick, 1000);
+</script>
+</body>
+</html>
